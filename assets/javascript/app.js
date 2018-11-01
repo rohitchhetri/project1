@@ -1,4 +1,4 @@
-alert("Javascript Connect")
+//alert("Javascript Connect")
 
 //TODO Movie OMDb API
 // TODO Youtube API Working 
