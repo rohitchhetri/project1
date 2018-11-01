@@ -8,7 +8,7 @@ alert("Javascript Connect")
 
 function movieinfo() {
         
-        var queryURL = "http://www.omdbapi.com/?t=rock&apikey=388edf5a";
+        var queryURL = "http://www.omdbapi.com/?t=rock&apikey=//!InsertKey";
         // Creating an AJAX call for the specific movie 
         $.ajax({
           url: queryURL,
@@ -21,7 +21,7 @@ movieinfo();
 
 function youtube(){
 
-    var queryURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=The+Rock+Trailer&type=video&key=AIzaSyCb3e79c57_B7L6m214mksu6V3b_k_xEtA";
+    var queryURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=The+Rock+Trailer&type=video&key=//!InsertKey";
     //Creating an Ajax call for the specific trailer 
 
     $.ajax({
